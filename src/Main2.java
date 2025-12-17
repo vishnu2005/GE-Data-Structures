@@ -40,6 +40,13 @@ public class Main2{
         System.out.println("Word Frequencies: (UC-2)");
         table.display();
 
+        System.out.println("\n ----------------------------------------- \n");
+
+        System.out.println("UC-3 : Remove 'avoidable' from the phrase");
+        table.remove("avoidable");
+        table.display();
+
+
 
     }
 }
